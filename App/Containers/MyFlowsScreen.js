@@ -38,6 +38,9 @@ type MyFlowsProps = {
 
 class MyFlowsScreen extends React.Component {
 
+  static navigationOptions = {
+      title: 'My Flows',
+    };
 
 
   props: MyFlowsProps

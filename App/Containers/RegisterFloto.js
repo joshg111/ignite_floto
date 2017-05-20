@@ -75,6 +75,10 @@ type RegisterFlotoProps = {
 
 class RegisterFloto extends React.Component {
 
+  static navigationOptions = {
+    title: 'Register',
+  };
+
   options = {
     auto: "placeholders",
     fields: {
